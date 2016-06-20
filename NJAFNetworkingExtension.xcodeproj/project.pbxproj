@@ -14,7 +14,7 @@
 		FC5C200D1D12518C00A8697E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5C200B1D12518C00A8697E /* Main.storyboard */; };
 		FC5C200F1D12518C00A8697E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5C200E1D12518C00A8697E /* Assets.xcassets */; };
 		FC5C20121D12518C00A8697E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5C20101D12518C00A8697E /* LaunchScreen.storyboard */; };
-		FC9322141D1408DA00B9A8F9 /* NJAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9322131D1408DA00B9A8F9 /* NJAFNetworking.m */; };
+		FC9322181D17954200B9A8F9 /* NJAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9322171D17954200B9A8F9 /* NJAFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		FC5C200E1D12518C00A8697E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC5C20111D12518C00A8697E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC5C20131D12518C00A8697E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC9322121D1408DA00B9A8F9 /* NJAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJAFNetworking.h; sourceTree = "<group>"; };
-		FC9322131D1408DA00B9A8F9 /* NJAFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJAFNetworking.m; sourceTree = "<group>"; };
+		FC9322161D17954200B9A8F9 /* NJAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJAFNetworking.h; sourceTree = "<group>"; };
+		FC9322171D17954200B9A8F9 /* NJAFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJAFNetworking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 		FC5C20011D12518C00A8697E /* NJAFNetworkingExtension */ = {
 			isa = PBXGroup;
 			children = (
-				FC9322111D1408DA00B9A8F9 /* NJAFNetworking */,
+				FC9322151D17954200B9A8F9 /* NJAFNetworking */,
 				FC5C20051D12518C00A8697E /* AppDelegate.h */,
 				FC5C20061D12518C00A8697E /* AppDelegate.m */,
 				FC5C20081D12518C00A8697E /* ViewController.h */,
@@ -107,11 +107,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FC9322111D1408DA00B9A8F9 /* NJAFNetworking */ = {
+		FC9322151D17954200B9A8F9 /* NJAFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				FC9322121D1408DA00B9A8F9 /* NJAFNetworking.h */,
-				FC9322131D1408DA00B9A8F9 /* NJAFNetworking.m */,
+				FC9322161D17954200B9A8F9 /* NJAFNetworking.h */,
+				FC9322171D17954200B9A8F9 /* NJAFNetworking.m */,
 			);
 			path = NJAFNetworking;
 			sourceTree = "<group>";
@@ -239,7 +239,7 @@
 			files = (
 				FC5C200A1D12518C00A8697E /* ViewController.m in Sources */,
 				FC5C20071D12518C00A8697E /* AppDelegate.m in Sources */,
-				FC9322141D1408DA00B9A8F9 /* NJAFNetworking.m in Sources */,
+				FC9322181D17954200B9A8F9 /* NJAFNetworking.m in Sources */,
 				FC5C20041D12518C00A8697E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
